@@ -1,0 +1,218 @@
+/**
+ * Fonte padrão do site
+ */
+body,
+.navigation ul li a,
+.navigation ul li ul li a,
+.subscribe input.mail,
+.subscribe input.submit,
+input.search,
+input.text,
+textarea,
+input.subscribe-text,
+input.subscribe-button {
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+}
+
+/**
+ * Cor padrão do link
+ * link não decorado (sublinhado)
+ */
+a {
+    text-decoration: none;
+    color: #585858;
+}
+
+/**
+ * Cor do hover (quando passa o mouse)
+ */
+a:hover {
+    color: #53b808;
+}
+
+/**
+ * Animação simples para o houver ser mais suave
+ */
+a {
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+/**
+ * Tamanho da font e espaçamento do texto dos titulos
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 28px; line-height: 50px; }
+h2 { font-size: 20px; line-height: 30px; }
+h3 { font-size: 17px; line-height: 34px; }
+h4 { font-size: 16px; line-height: 30px; }
+h5 { font-size: 14px; line-height: 24px; }
+h6 { font-size: 12px; line-height: 21px; }
+
+/**
+ * Espaçamento do texto no parágrafo
+ */
+p {
+    line-height: 22px;
+}
+
+/**
+ * Remove o estilo numero/bolinha da lista
+ */
+ol, ul {
+    list-style: none;
+}
+
+/**
+ * Estilo padrão da linha horizontal
+ */
+hr {
+    border: solid #ececec;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: -1px 0 0 0;
+    height: 0;
+}
+
+.txt-l {
+    text-align: left;
+}
+.txt-r {
+    text-align: right;
+}
+
+h2.title {
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 25px;
+}
+
+/**
+ * Titulo do h3 no rodapé
+ */
+h3.title {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #747474;
+    margin-bottom: 15px;
+}
+h3.title, footer a {
+    color: #e8e8e8;
+}
+
+.title {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #ececec;
+    margin: 15px 0 15px 0;
+}
+
+.line {
+    background: #53b808;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 7px 0 -11px 0;
+}
+
+/*
+.title::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 7px 0 -11px 0;
+    background: #53b808;
+    bottom: -33px;
+    position: relative;
+    vertical-align: bottom;
+}
+*/
+
+header {
+    min-height: 91px;
+    border-top: 5px solid #585858;
+}
+
+header .logo {
+    font-size: 32px;
+    margin: 28px 0;
+}
+
+header nav {
+    float: right;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+header nav ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 37px 15px 34px 15px;
+    color: #585858;
+    font-size: 16px;
+}
+
+/**
+ * Cor de fundo e cor do texto no rodapé
+ */
+footer {
+    background: #474747;
+    color: #a4a1a1;
+    padding: 5px 0 22px 0;
+    margin: 25px 0 0 0;
+}
+
+/**
+ * Linha horizontal no footer
+ */
+footer hr.bottom {
+    border: solid #747474;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 15px 0 !important;
+    height: 0;
+}
+
+footer input.email {
+    padding: 8px;
+    border: none;
+    width: 100%;
+    margin: 18px 0 8px 0;
+    background: #505050;
+}
+
+footer input.submit {
+    padding: 6px 16px;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    background: #53b808;
+    float: right;
+    color: #fff;
+}
+
+/**
+ * Texto copyright
+ */
+footer span.copyright {
+    padding-top: 7px;
+    display: block;
+}
